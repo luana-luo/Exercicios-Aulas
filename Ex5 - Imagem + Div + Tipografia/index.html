@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/e47951f17b.js" crossorigin="anonymous"></script>
+    
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Atividade HTML</title>
@@ -18,17 +20,22 @@
             <li><a href="#">Início</a></li>
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Contato</a></li>
-            </ul>
+            </ul>  
         </nav>
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        
     </header>
-
-  
+ 
+ 
   <!-- Hero -->
   <section class="hero">
-    <h1 class="hero-text">Bem-vindo ao Nosso Site</h1>
+    <div class="overlay"> </div>
+    <h1 class="hero-text">Bem-vindo ao nosso Site</h1>
     <a href="#">Conheça mais aqui</a>
   </section>
-  
+ 
   <!-- Painel de Cards -->
   <section class="painel">
     <div class="card">
@@ -36,19 +43,20 @@
       <h3 class="titulo-card">Interface Intuitiva</h3>
       <p class="descricao-card">Navegue com facilidade graças a um design simples e funcional.</p>
     </div>
-  
+ 
     <div class="card">
       <div class="icone">🔒</div>
       <h3 class="titulo-card">Segurança Avançada</h3>
       <p class="descricao-card">Seus dados protegidos com autenticação de dois fatores.</p>
     </div>
-  
+ 
     <div class="card">
       <div class="icone">⚡</div>
       <h3 class="titulo-card">Desempenho Rápido</h3>
       <p class="descricao-card">Acesse recursos com carregamento instantâneo e otimizado.</p>
     </div>
   </section>
-  
+ 
 </body>
+<script src="./app.js"></script>
 </html>
